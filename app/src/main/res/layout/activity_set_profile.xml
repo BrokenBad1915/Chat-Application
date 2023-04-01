@@ -14,13 +14,14 @@
         android:textSize="35sp"
         android:textColor="@color/maroon"
         android:gravity="center"
-        android:translationY="100dp"
+        android:translationY="200dp"
         android:text="Save Your Profile" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/mgetuserimage"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:translationY="155dp"
+        android:translationY="255dp"
         android:layout_gravity="center"
         app:cardCornerRadius="130dp">
 
@@ -32,21 +33,11 @@
             android:scaleType="centerCrop"/>
     </androidx.cardview.widget.CardView>
 
-    <EditText
-        android:id="@+id/username19"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:gravity="center"
-        android:translationY="190dp"
-        android:hint="Enter Your Username" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:translationY="210dp"
+        android:translationY="310dp"
         android:layout_gravity="center"
         android:theme="@style/Theme.AppCompat"
         android:text="Save Profile" />
